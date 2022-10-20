@@ -1,4 +1,4 @@
 import "./d3";
-import techan from "techan";
+import * as techan from "techan";
 
 export default techan;
