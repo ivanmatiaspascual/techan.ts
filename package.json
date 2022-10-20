@@ -12,5 +12,10 @@
 		"@typescript-eslint/parser": "5.40.1",
 		"eslint": "8.25.0",
 		"eslint-plugin-react": "7.31.10"
-	}
+	},
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"files": [
+		"/build"
+	]
 }
