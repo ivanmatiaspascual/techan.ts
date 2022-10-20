@@ -12,11 +12,11 @@
 		"strictFunctionTypes": true,
 		"baseUrl": "./",
 		"typeRoots": [
-			"./"
+			"./src"
 		],
 		"types": [
-			"node",
-			"src"
+			"node", // node_modules/@types/node
+			"types" // src/types
 		],
 		"noEmit": true,
 		"forceConsistentCasingInFileNames": true
