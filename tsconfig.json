@@ -20,8 +20,8 @@
 		],
 		"noEmit": false, // noEmit false to build js script
 		"forceConsistentCasingInFileNames": true,
-		"declaration": true,
-		"outDir": "./build"
+		"outDir": "./build",
+		"declaration": true
 	},
 	"include": [
 		"src"

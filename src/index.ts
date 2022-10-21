@@ -1,4 +1,6 @@
 import "./d3";
 import * as techan from "techan";
 
-export default techan;
+import { Techan } from "./types/techan.interface";
+
+export default techan as Techan;
