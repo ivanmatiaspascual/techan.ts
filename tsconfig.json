@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"es6"
+		],
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"baseUrl": "./",
+		"typeRoots": [
+			"./src"
+		],
+		"types": [
+			"node", // node_modules/@types/node
+			"types" // src/types
+		],
+		"noEmit": false, // noEmit false to build js script
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"outDir": "./build"
+	},
+	"include": [
+		"src"
+	]
+}
